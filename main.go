@@ -19,7 +19,7 @@ func main() {
 		[]string{""}, // TODO: add your smart contract address here
 		1123,         // TODO: add your smart contract block here
 		map[string]ethworker.ChainEventHandler{
-			"aaa": job.MintNFT,
+			"0xc5c2f7a3cc1db796eab9ab3ac964ecf4689f447ddbfbdafbb3b9547c9d1883ff": job.MintNFT,
 		})
 
 	<-forever
